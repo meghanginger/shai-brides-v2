@@ -8,9 +8,7 @@ import Footer from "../components/footer";
 import ScrollAnchor from "../components/ScrollAnchor";
 import Landing from "../components/Landing";
 import Live from "../components/Live";
-import { configureAnchors } from 'react-scrollable-anchor';
-const isMobile = typeof window !== 'undefined' && window.innerWidth  < 480;
-const bgImage = isMobile ? "Mobile" : "Desktop";
+// import { configureAnchors } from 'react-scrollable-anchor';
 //configureAnchors({scrollDuration: 600})
 
 const IndexPage = ({ data }) => (
