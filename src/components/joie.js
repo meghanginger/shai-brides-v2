@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "./layout";
+import Layout from "./Layout";
 import SpotifyPlayer from "./SpotifyPlayer";
 import contentURLs from "../data/content-cdn";
 import joieQuotes from "../data/joieQuotes";

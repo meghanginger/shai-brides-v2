@@ -1,16 +1,16 @@
 .joieHeader {
     display: flex;
     justify-content: center;
-    padding-left: 30px;
+    padding-left: 1.9rem;
 
     @media screen and (max-width: 783px) {
-        padding-left: 10px;
+        padding-left: 0.6rem;
     }
 }
 
 .joieVideo {
     width: 100vw;
-    margin-bottom: -10px;
+    margin-bottom: -0.6rem;
 }
 
 .joieImage {
@@ -32,7 +32,7 @@
 }
 
 .spotifyPlayer {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .tokyoVideo {

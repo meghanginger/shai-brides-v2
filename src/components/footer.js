@@ -29,7 +29,7 @@ const Footer = ({ bgColour }) => (
 );
 
 Footer.propTypes = {
-  bgColour: PropTypes.string.isRequired(),
+  bgColour: PropTypes.string.isRequired,
 }
 
 export default Footer;
