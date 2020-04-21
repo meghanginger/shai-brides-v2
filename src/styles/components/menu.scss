@@ -1,0 +1,95 @@
+.menuDiv {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    text-align: right;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
+.menuDivSecond h2 {
+    padding: 10px;
+    text-align: center;
+    font-family: Orbitron;
+    color: white;
+    display: block;
+    font-weight: 500;
+    text-decoration: none;
+    @media screen and (max-width: 783px){
+        font-size: 35px !important;
+    }
+
+    transition: color 0.3s;
+
+    &:hover {
+        color: #7da3a3;
+    }
+}
+
+.xMenu {
+    width: 44px;
+    text-align: right;
+
+    &:hover {
+        cursor: pointer;
+        filter: brightness(0) saturate(100%) invert(66%) sepia(5%) saturate(1428%) hue-rotate(131deg) brightness(93%) contrast(88%);
+    }
+}
+
+.menuDivSecond {
+    padding: 10px;
+    
+}
+
+.menuIconDiv {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.menuIconDiv img {
+    max-width:75%;
+    height: auto;
+    text-align: center;
+    transition: filter 0.3s;
+
+    &:hover {
+        filter: brightness(0) saturate(100%) invert(66%) sepia(5%) saturate(1428%) hue-rotate(131deg) brightness(93%) contrast(88%);
+    }
+}
+
+.burgerMenu {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 11;
+
+    &:hover {
+        cursor: pointer;
+        filter: brightness(0) saturate(100%) invert(97%) sepia(1%) saturate(2765%) hue-rotate(315deg) brightness(124%) contrast(73%);
+    }
+}
+
+.landingLiveDiv {
+    width: 100vw;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding-left: 10px;
+    text-align: center;
+    @media screen  and (max-width:783px){
+        text-align: left;
+    }
+    padding-left: 0px;
+    color: #00002c;
+    box-shadow: 10px 10px 10px black;
+}
+
+.indexContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: auto;
+}

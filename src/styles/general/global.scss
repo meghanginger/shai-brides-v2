@@ -1,0 +1,152 @@
+//fonts 
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;600');
+//files
+@import "./vars.scss";
+@import "./layout.scss";
+@import "./colors.scss";
+@import "./opacity.scss";
+@import "./button.scss";
+@import "./link.scss";
+@import "./logo.scss";
+@import "./border.scss";
+@import "./hero.scss";
+//@import "./margin_padding.scss";
+
+@import "../components/homeImage.scss";
+@import "../components/menu.scss";
+@import "../components/live.scss";
+@import "../components/joie.scss";
+@import "../components/footer.scss";
+@import "../components/bio.scss";
+
+@for $i from 1 through 6 {
+    h#{7 - $i} {
+        font-size: $i * 1.4em;
+    }
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 { 
+    display: block;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    font-family: Orbitron;
+    font-weight: regular;
+    text-transform: uppercase;
+    @media screen  and (max-width:783px){
+      font-size: 2rem;
+      padding-bottom: 0
+    }
+    text-align: center !important;
+  }
+
+  
+h2 {
+    display: block;
+    font-size: 3rem !important;
+    font-family: Orbitron;
+    margin: 0;
+    font-weight: regular;
+  }
+
+h3 { 
+    display: block;
+    font-size: 2rem;
+    font-family: Orbitron;
+    margin: 1rem;
+    font-weight: regular;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 783px) {
+      font-size: 1.2rem;
+    }
+  }
+
+h4 { 
+    display: block;
+    font-size: 1rem;
+    font-family: Orbitron;
+    margin-top: 1.33em;
+    margin-bottom: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+h5 { 
+    display: block;
+    font-size: 1.5rem;
+    font-family: Jura;
+    margin-top: 1.67em;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 600;
+
+    @media screen and (max-width: 783px) {
+      margin-top: 0.7rem;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+  }
+
+h6 { 
+    display: block;
+    font-size: 1rem;
+    font-family: Jura;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 500;
+
+    @media screen and (max-width: 783px) {
+      font-size: 0.7em;
+    }
+  }
+
+
+footer {
+    text-align: center;
+    font-family: Jura;
+    padding: 0.5rem;
+    background-color: rgb(34, 45, 70);
+}
+
+p {
+  font-family: 'Jura';
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  @media screen and (max-width: 783px) {
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0;
+  }
+
+}
+ hr {
+   margin: 0 10vw;
+   border-color: #00002C;
+   border-width: 0.2rem;
+   margin-top: 2rem;
+  
+   @media screen and (max-width: 783px) {
+    border-width: 0.1rem;
+  }
+ }
+
+// filter website https://codepen.io/sosuke/pen/Pjoqqp
+
+.mobileHidden {
+  @media screen and (max-width: 783px) {
+    display: none;
+  }
+}

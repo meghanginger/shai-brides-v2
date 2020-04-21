@@ -1,0 +1,71 @@
+.homeImageDesktop {
+    width: 100vw;
+}
+
+.homeImageMobile {
+    height: 100vh;
+}
+
+.logoHomeDesktop {
+    width: 30vw;
+    padding-bottom: 10px;
+}
+
+.logoHomeMobile {
+    width: 60vw;
+    padding-bottom: 10px;
+}
+
+.logoHomeDivDesktop {
+    width: 100vw;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 5;
+}
+
+.arrowHomeDivDesktop {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+
+    
+}
+
+.logoHomeDivMobile {
+    width: 100vw;
+    position: absolute;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+}
+
+.arrowHomeDivMobile {
+    width: 100vw;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+}
+
+.downIconDesktop {
+    width: 4vw;
+    margin-bottom: 10px;
+
+    &:hover {
+        cursor: pointer;
+        filter: brightness(0) saturate(100%) invert(97%) sepia(1%) saturate(2765%) hue-rotate(315deg) brightness(124%) contrast(73%);
+    }
+}
+
+.downIconMobile {
+    width: 15vw;
+}

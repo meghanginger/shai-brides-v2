@@ -1,0 +1,48 @@
+.footerBg{
+    width: 100vw;
+    height: 4.4rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+    align-items: flex-end;
+
+    @media screen and (max-width: 783px){
+        height: 11.25rem;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        height: auto;
+    }
+}
+
+.footerIconDiv img {
+    height: 2rem;
+    width: auto;
+    transition: filter 0.5s;
+
+    @media screen and (max-width: 783px){
+        height: 2rem;
+    }
+
+    &:hover {
+        filter: brightness(0) saturate(100%) invert(97%) sepia(1%) saturate(2765%) hue-rotate(315deg) brightness(124%) contrast(73%);
+    }
+}
+
+
+.footerLogo {
+    width: 12.5rem;
+    height: auto;
+    padding-bottom: 5px;
+    transition: filter 0.5s;
+
+    @media screen and (max-width: 783px){
+        width: 40vw;
+    }
+
+    &:hover {
+        filter: brightness(0) saturate(100%) invert(97%) sepia(1%) saturate(2765%) hue-rotate(315deg) brightness(124%) contrast(73%);
+    }
+}

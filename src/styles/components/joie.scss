@@ -1,0 +1,101 @@
+.joieHeader {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+
+    @media screen and (max-width: 783px) {
+        padding-left: 10px;
+    }
+}
+
+.joieVideo {
+    width: 100vw;
+    margin-bottom: -10px;
+}
+
+.joieImage {
+    width: 80%;
+    height: auto;
+    margin-bottom: 3rem;
+
+    @media screen and (max-width: 783px) {
+        margin: 10% 0;
+        width: 75%;
+    }
+}
+
+.imageSpotifyWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.spotifyPlayer {
+    margin-bottom: 20px;
+}
+
+.tokyoVideo {
+    width: 70vw;
+}
+
+.tokyoVideoDiv {
+    display:flex;
+    justify-content: center;
+    background-color: #00002c;
+    height: 110vh;
+}
+
+.override {
+    flex-direction: row-reverse !important;
+}
+
+.joieContentDiv {
+    padding: 1rem 0 2.5rem 0;
+}
+
+.quotesWrapper {
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    @media screen and (max-width: 783px) {
+        padding: 0 2rem;
+    }
+}
+
+.quoteWrapper {
+    padding: 1rem 0;
+}
+
+.quoteWrapper > h6 {
+    text-align: right;
+    padding-right: 2rem;
+    font-style: italic;
+}
+
+.joieContentDiv > h3 {
+    text-align: center;
+}
+
+.tokyoSpotifyWrapper {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @media screen and (max-width: 783px) {
+        padding: 0;
+    }
+}
+
+.tokyoImage {
+    margin-top: 3rem;
+}
+
+.lineJoie {
+    padding: 0 8vw ;
+
+    @media screen and (max-width: 783px) {
+        padding: 0 1rem;
+    }
+}

@@ -1,0 +1,130 @@
+.live-bg {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #00002c !important;
+}
+
+.liveInfo {
+    text-align: left;
+    padding: 10px; 
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+
+    @media screen and (max-width:783px){
+        padding: 0;
+        padding-left: 0.5rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 0.35rem;
+    }
+}
+
+.liveTitle {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    align-self: center;
+    @media screen and (max-width:783px){
+        margin-left: 0;
+    }
+}
+
+.liveDiv {
+    margin: 2rem 0.5rem;
+    border: none;
+    background-color: none;
+    margin-bottom: 1.25rem;
+    border-bottom: 0.25rem solid #73daa0;
+    transition: all 0.2s ease-in-out;;
+
+    @media screen and (max-width:783px){
+        padding: 0;
+        text-align: left;
+        border-bottom: 0.25rem solid rgb(34, 45, 70);
+        margin: 2rem 0.5rem 0 0.5rem;
+    }
+
+    &:hover {
+        border-bottom: 0.25rem solid rgb(114, 9, 26);
+        color: rgb(114, 9, 26) !important;
+        transform: scale(1.02);
+    }
+}
+
+
+.liveDate > h2 {
+    margin: 0;
+    font-size: 70px !important;
+    line-height: 0.8;
+
+    @media screen  and (max-width:783px){
+        font-size: 4.3rem !important;
+    }
+}
+
+.liveDate > h4 {
+    margin: 0;
+    font-size: 50px !important;
+    line-height: 1.2;
+
+    @media screen  and (max-width:783px){
+        font-size: 2.7rem !important;
+    }
+}
+
+.liveDate {
+
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    @media screen  and (max-width:783px){
+        padding: 0;
+        align-items: flex-start;
+    }
+}
+
+.div-ception > h4 {
+    margin: 0;
+    font-size: 1.25rem !important;
+    line-height: 1.2;
+
+    @media screen  and (max-width:783px){
+        font-size: 1rem !important;
+    }
+    
+}
+
+.div-ception > h3 {
+    margin: 0;
+    font-size: 3.5rem !important;
+    line-height: 1.2;
+
+    @media screen  and (max-width:783px){
+        font-size: 1.8rem !important;
+        line-height: 1.1;
+    }
+}
+
+.div-ception {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen  and (max-width:783px){
+        justify-content: flex-end;
+    }
+}

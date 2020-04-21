@@ -1,0 +1,27 @@
+[
+    {
+        "label": "Insta",
+        "location": "../icons/insta.svg",
+        "href": "https://www.instagram.com/shaibrides"
+    },
+    {
+        "label": "Youtube",
+        "location": "../icons/youtube.svg",
+        "href": "https://www.youtube.com/channel/UCUfSV1sIHcMBEou0r5JcpnQ"
+    },
+    {
+        "label": "Spotify",
+        "location": "../icons/spotify.svg",
+        "href": "https://open.spotify.com/artist/4ubmraLEMNqkNnWkvnq0a5?si=3qRrLeXzTMuBGSVmSG4jHg"
+    },
+    {
+        "label": "Mail",
+        "location": "https://ik.imagekit.io/shaibrides/icons/mail_B2ak5meUNk.svg",
+        "href": "mailto:shaibrides@gmail.com"
+    },
+    {
+        "label": "Facebook",
+        "location": "https://ik.imagekit.io/shaibrides/icons/facebook_zotJB9q7m.svg",
+        "href": "https://www.facebook.com/shaibrides"
+    }
+]

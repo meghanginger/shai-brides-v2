@@ -1,0 +1,16 @@
+.bioText {
+    min-height: 400px;
+    color: black;
+    padding: 0.5rem 8vw 2rem 8vw;
+
+    @media screen and (max-width: 783px) {
+        padding: 0 0 1rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+.bioImages {
+    min-height: 80vh;
+}
