@@ -1,16 +1,14 @@
 import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Joie from "../components/joie"
-import Tokyo from "../components/tokyo"
+import Layout from "../components/Layout"
+import SEO from "../components/SEO"
+import Joie from "../components/Joie"
+import Tokyo from "../components/Tokyo"
 import Bio from "../components/Bio";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import ScrollAnchor from "../components/ScrollAnchor";
 import Landing from "../components/Landing";
 import Live from "../components/Live";
-import { configureAnchors } from 'react-scrollable-anchor';
-const isMobile = typeof window !== 'undefined' && window.innerWidth  < 480;
-const bgImage = isMobile ? "Mobile" : "Desktop";
+// import { configureAnchors } from 'react-scrollable-anchor';
 //configureAnchors({scrollDuration: 600})
 
 const IndexPage = ({ data }) => (

@@ -1,6 +1,7 @@
 import React from 'react';
 import imageURLs from "../data/content-cdn";
 import { Link } from "gatsby";
+import PropTypes from "prop-types";
 
 const Footer = ({ bgColour }) => (
     <div className={`is-${bgColour}-bg footerBg`}>
@@ -26,5 +27,9 @@ const Footer = ({ bgColour }) => (
               </div>
     </div>
 );
+
+Footer.propTypes = {
+  bgColour: PropTypes.string.isRequired,
+}
 
 export default Footer;
