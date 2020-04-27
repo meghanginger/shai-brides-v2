@@ -1,9 +1,10 @@
 $tokyo-colors: 
 ("white",white),
-("dark-blue",#00002C),
+("dark-blue",#83001e),
 ("light-blue",#a3e4f3),
 ("grey", #43434d),
 ("red", #ff0033),
+("new-blue", #00002c),
 ("mint", #73daa0);
 
 @each $color in $tokyo-colors {

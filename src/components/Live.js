@@ -2,8 +2,8 @@ import React from 'react';
 import LiveList from "./LiveList";
 
 const Live = () => (
-    <div className="is-mint-bg container-fluid">
-      <h1 className="is-dark-blue">UPCOMING SHOWS</h1>
+    <div className="is-dark-blue-bg container-fluid divShadow">
+      <h1 className="is-white">UPCOMING SHOWS</h1>
       <LiveList />
     </div>
 );

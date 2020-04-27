@@ -22,8 +22,8 @@ const IndexPage = ({ data }) => (
     <ScrollAnchor linkId="joie" />
     <Joie />
     <ScrollAnchor linkId="about-the-band" />
-    <Bio />
-    <Footer bgColour="dark-blue"/>
+    <Bio data={data}/>
+    <Footer bgColour="new-blue"/>
   </Layout>
 )
 
@@ -37,6 +37,20 @@ export const query = graphql`
       }
     }
     homeMobile: file(relativePath: { eq: "homeMobile.jpg" }) {
+      childImageSharp {
+          fluid(maxWidth: 800) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    beachDesktop: file(relativePath: { eq: "beachDesktop.jpg" }) {
+      childImageSharp {
+          fluid(maxWidth: 1240) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    beachMobile: file(relativePath: { eq: "beachMobile.jpg" }) {
       childImageSharp {
           fluid(maxWidth: 800) {
             ...GatsbyImageSharpFluid
