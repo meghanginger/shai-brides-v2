@@ -4,7 +4,7 @@ import liveDates from '../data/liveList';
 const LiveList = () => (
     <div className="bioText">
         {liveDates.map(date => (
-        <a className="row liveDiv is-dark-blue" href={date.ticketLink} >
+        <a className="row liveDiv is-white" href={date.ticketLink} >
             <div className="liveDate col-xs-4 col-lg-5">
                 <h2>{date.day}</h2>
                 <h4>{date.month}</h4>
@@ -17,7 +17,6 @@ const LiveList = () => (
             </div>
         </a>
         ))}
-        <hr className="mobileHidden"/>
     </div>
 )
 

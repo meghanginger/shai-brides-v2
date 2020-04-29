@@ -4,14 +4,14 @@ import contentURLs from "../data/content-cdn";
 import tokyoQuotes from "../data/tokyoQuotes";
 
 export default () => (
-    <>
+    <div className="divShadow">
         <div className="joieVideo">
             <video text-align="middle" loop width="200%" muted autoPlay className="joieVideo" playsInline>
                 <source src={contentURLs.Tokyo.Video} type="video/mp4" />
             </video>
         </div>
-        <div className="is-light-blue-bg joieContentDiv">
-            <div className="is-light-blue-bg container row override" >
+        <div className="is-dark-blue-bg joieContentDiv">
+            <div className="is-dark-blue-bg is-white container row override" >
                 <div className="col-sm-4 col-md-5 col-xs-12 imageSpotifyWrapper tokyoSpotifyWrapper">
                     <img src={contentURLs.Tokyo.Album} alt="" className="joieImage tokyoImage"/>
                     <SpotifyPlayer className="spotifyPlayer" link="tokyo" />
@@ -25,10 +25,7 @@ export default () => (
                     ))}
                 </div>
             </div>
-            <h3 className="pad-1" >OUT NOW ON ALL STREAMING PLATFORMS</h3>
-            <div className="lineJoie">
-                <hr />
-            </div>
+            <h3 className="pad-1 is-white" >OUT NOW ON ALL STREAMING PLATFORMS</h3>
         </div>
-    </>
+    </ div>
 )
