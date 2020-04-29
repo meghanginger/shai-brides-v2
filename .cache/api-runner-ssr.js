@@ -4,6 +4,9 @@ var plugins = [{
     },{
       plugin: require('/Users/Meghan/Documents/BRIDES/web dev/shai-brides-v2/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"icon":"src/img/favicon.png"},
+    },{
+      plugin: require('/Users/Meghan/Documents/BRIDES/web dev/shai-brides-v2/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-222383788-1"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

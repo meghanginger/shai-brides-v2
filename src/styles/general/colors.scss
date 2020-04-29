@@ -29,6 +29,20 @@ $joie-colors:
   }
 }
 
+$honeydew-colors: 
+("red", #E84747),
+("pink",#E8DEED),
+("green",#ABC6BF),
+("light-blue",rgb(154, 173, 191)),
+("dark-blue",#202C39);
 
+@each $color in $joie-colors {
+  .honeydew-#{nth($color,1)}-bg{
+    background-color: nth($color,2) !important;
+  }
+  .honeydew-#{nth($color,1)}{
+    color: nth($color,2) !important;
+  }
+}
 
 

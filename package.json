@@ -57,6 +57,7 @@
     "url": "https://github.com/slarsendisney/gatsby-watermelon"
   },
   "dependencies": {
+    "gatsby-plugin-google-analytics": "^2.3.0",
     "gatsby-transformer-sharp": "^2.4.4",
     "react-scroll": "^1.7.16",
     "react-scrollable-anchor": "^0.6.1"
