@@ -6,7 +6,7 @@ module.exports = [{
       options: {"plugins":[]},
     },{
       plugin: require('../node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
-      options: {"plugins":[],"trackingId":"UA-222383788-1"},
+      options: {"plugins":[],"trackingId":"UA-158100447-1"},
     },{
       plugin: require('../gatsby-browser.js'),
       options: {"plugins":[]},
