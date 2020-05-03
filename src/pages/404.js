@@ -8,7 +8,10 @@ const lost = () => (
     <SEO title="404" />
     <div className="is-grey is-dark-blue-bg errorContainer">
       <div className="errorBg">
-        <h1 className="joieHeader is-dark-blue-bg is-white">You look lost...</h1>
+        <h1 className="joieHeader is-dark-blue-bg is-white">404 error: You look lost...</h1>
+        <h5 className="is-white errorBody">
+          Are you snooping for a mystery page? There's nothing here pal.
+        </h5>
         <Link className="homeLink">
           <button className="btn margin-3-t">Take me home</button>
         </Link>
