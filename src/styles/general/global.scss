@@ -32,24 +32,24 @@ body {
     overflow-x: hidden;
 }
 
-h1 { 
+h2 { 
     display: block;
     text-shadow: 2px 2px #111111;
     font-size: 4rem;
     margin: 0;
-    padding: 0.5rem;
+    padding: 1rem;
     padding-top: 1.5rem;
     font-family: Orbitron;
     font-weight: regular;
     text-transform: uppercase;
     @media screen  and (max-width:783px){
       font-size: 2rem;
-      padding-bottom: 0
+      padding-bottom: 0;
     }
     text-align: center !important;
   }
 
-  
+  /*
 h2 {
     display: block;
     text-shadow: 2px 2px #111111;
@@ -58,6 +58,17 @@ h2 {
     margin: 0;
     font-weight: regular;
   }
+  */
+
+.liveDateText {
+  margin: 0;
+  font-size: 4.375rem !important;
+  line-height: 0.8;
+
+  @media screen  and (max-width:783px){
+      font-size: 4.3rem !important;
+  }
+}
 
 h3 { 
     display: block;
@@ -161,4 +172,20 @@ p {
 
 .divShadow {
   box-shadow: 20px 20px 20px;
+  background-color: #83001e;
+
+  @media screen and (max-width: 783px) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.visuallyHidden { 
+  position: absolute !important;
+  height: 1px; 
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
 }

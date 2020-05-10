@@ -5,6 +5,7 @@ import tokyoQuotes from "../data/tokyoQuotes";
 
 export default () => (
     <div className="divShadow">
+        <h2 className="visuallyHidden">Tokyo Drift</h2>
         <div className="joieVideo">
             <video text-align="middle" loop width="200%" muted autoPlay className="joieVideo" playsInline>
                 <source src={contentURLs.Tokyo.Video} type="video/mp4" />
@@ -14,7 +15,7 @@ export default () => (
             <div className="is-dark-blue-bg is-white container row override" >
                 <div className="col-sm-4 col-md-5 col-xs-12 imageSpotifyWrapper tokyoSpotifyWrapper">
                     <img src={contentURLs.Tokyo.Album} alt="" className="joieImage tokyoImage"/>
-                    <SpotifyPlayer className="spotifyPlayer" link="tokyo" />
+                    <SpotifyPlayer className="spotifyPlayer" link="tokyo" songName="Tokyo Drift" />
                 </div>
                 <div className="col-sm-8 col-md-7 col-xs-12 quotesWrapper">
                     {tokyoQuotes.map(quote => (

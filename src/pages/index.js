@@ -14,6 +14,9 @@ import Live from "../components/Live";
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="SHAI BRIDES" />
+    <h1 className="visuallyHidden">
+      Shai Brides
+    </h1>
     <Landing data={data} />
     <ScrollAnchor linkId="live" />
     <Live />

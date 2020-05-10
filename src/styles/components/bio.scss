@@ -14,3 +14,21 @@
 .bioImages {
     min-height: 80vh;
 }
+
+a:link {
+    color:rgb(146, 215, 218);
+  }
+
+a:visited {
+color:rgb(146, 215, 218);
+}
+
+
+.bioImage {
+    height: 100vh;
+
+    @media screen and (max-width: 783px) {
+        width: 100vw;
+        height: auto;
+    }
+}

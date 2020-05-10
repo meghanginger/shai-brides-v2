@@ -51,7 +51,7 @@ a:link {
     @media screen and (max-width:783px){
         padding: 0;
         text-align: left;
-        margin: 2rem 0.5rem 0 0.5rem;
+        margin: 2rem 0.5rem 0 1rem;
     }
 
     @media screen and (min-width:783px){
@@ -127,5 +127,16 @@ a:link {
 
     @media screen  and (max-width:783px){
         justify-content: flex-end;
+    }
+}
+
+.liveContainer {
+    @media screen  and (max-width:783px){
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    /*
+    padding-left: 0.7rem !important;
+    padding-right: 0.7rem !important;
+    */
     }
 }

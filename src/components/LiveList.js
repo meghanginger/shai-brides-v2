@@ -6,7 +6,7 @@ const LiveList = () => (
         {liveDates.map(date => (
         <a className="row liveDiv is-white" href={date.ticketLink} >
             <div className="liveDate col-xs-4 col-lg-5">
-                <h2>{date.day}</h2>
+                <h3 className="liveDateText">{date.day}</h3>
                 <h4>{date.month}</h4>
             </div>
             <div className="liveInfo col-xs-8 col-lg-7">

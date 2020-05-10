@@ -18,11 +18,11 @@ const Landing = ({ data }) => (
             />
         </div>
         <div className={`logoHomeDiv${bgImage}`}>
-            <img src={imageURLs.Logos.white} className={`logoHome${bgImage}`} />
+            <img src={imageURLs.Logos.white} className={`logoHome${bgImage}`} alt="Shai Brides Logo"/>
         </div>
         <div className={`arrowHomeDiv${bgImage}`}>
             <a href='#live' >
-                <img src={imageURLs.Icons["Down-arrow"]} className={`downIcon${bgImage}`} />
+                <img src={imageURLs.Icons["Down-arrow"]} className={`downIcon${bgImage}`} alt="Enter website"/>
             </a>
         </div>
     </>

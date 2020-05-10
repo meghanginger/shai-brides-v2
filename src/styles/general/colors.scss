@@ -5,7 +5,7 @@ $tokyo-colors:
 ("grey", #43434d),
 ("red", #ff0033),
 ("new-blue", #00002c),
-("mint", #73daa0);
+("mint", hsl(147, 92%, 15%));
 
 @each $color in $tokyo-colors {
   .is-#{nth($color,1)}-bg{
@@ -17,7 +17,7 @@ $tokyo-colors:
 }
 
 $joie-colors: 
-("blue", rgb(9, 143, 148)),
+("blue", rgb(16, 97, 100)),
 ("yellow",#d4b527);
 
 @each $color in $joie-colors {

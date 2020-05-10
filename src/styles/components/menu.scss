@@ -60,9 +60,12 @@
 }
 
 .burgerMenu {
+    /*
     position: fixed;
     top: 0.6rem;
     right: 0.6rem;
+    */
+    position: relative;
     z-index: 11;
 
     &:hover {
