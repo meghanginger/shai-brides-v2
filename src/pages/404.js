@@ -9,8 +9,9 @@ const lost = () => (
     <div className="is-grey is-dark-blue-bg errorContainer">
       <div className="errorBg">
         <h1 className="joieHeader is-dark-blue-bg is-white">404 error: You look lost...</h1>
+        <img src="https://ik.imagekit.io/shaibrides/CAM_404_min_hKl-PKbnP.gif" alt="drummer being an idiot" className="errorGif"/>
         <h5 className="is-white errorBody">
-          Are you snooping for a mystery page? There's nothing here pal.
+          Are you snooping for a mystery page? Cam's a bit lost too.
         </h5>
         <Link className="homeLink">
           <button className="btn margin-3-t">Take me home</button>

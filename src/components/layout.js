@@ -48,7 +48,7 @@ const Layout = ({ children }) => {
                 />
               </button>
               {Menu.map(header => (
-                <a href={header.link}>
+                <a href={header.link} onClick={()=>{setShowMenu(false)}}>
                   <h2>{header.label}</h2>
                 </a>
               ))}
@@ -56,7 +56,7 @@ const Layout = ({ children }) => {
                 <a href="https://www.instagram.com/shaibrides" >
                   <img src={require("../icons/insta.svg")} alt="Instagram" />
                 </a>
-                <a href="https://www.youtube.com/channel/UCUfSV1sIHcMBEou0r5JcpnQ" >
+                <a href="https://www.youtube.com/channel/UCUfSV1sIHcMBEou0r5JcpnQ">
                   <img src={require("../icons/youtube.svg")} alt="Youtube"/>
                 </a>
                 <a href="https://open.spotify.com/artist/4ubmraLEMNqkNnWkvnq0a5?si=3qRrLeXzTMuBGSVmSG4jHg" >
