@@ -4,7 +4,8 @@ module.exports = {
   siteMetadata: {
     title: `SHAI BRIDES`,
     description: `hectic pop.`,
-    author: `@shaibrides`
+    author: `@shaibrides`,
+    image: `/images/homeDesktop.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

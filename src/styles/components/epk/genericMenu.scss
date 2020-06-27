@@ -1,0 +1,40 @@
+.genericMenuHeader {
+    display: block;
+    color: white;
+    text-shadow: 2px 2px #111111;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0rem 1rem 3rem 1rem;
+    font-family: Orbitron;
+    font-weight: regular;
+    text-transform: uppercase;
+    @media screen  and (max-width:783px){
+    font-size: 2rem;
+    padding-bottom: 0;
+    }
+    text-align: center !important;
+}
+
+.genericSocialsWrapper {
+    padding-top: 2rem !important;
+    margin-bottom: 0 !important;
+}
+
+.paletteContainer {
+    display: flex;
+    height: 2rem;
+    width: 6rem;
+    justify-content: space-between;
+}
+
+.paletteColor {
+    border: 0.02rem solid;
+    height: 2rem;
+    width: 1rem;
+}
+
+.stdFlexContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

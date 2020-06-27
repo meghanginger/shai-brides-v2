@@ -57,6 +57,7 @@
     "url": "https://github.com/meghanginger/shai-brides-v2"
   },
   "dependencies": {
+    "dash-core-components": "^1.10.0",
     "gatsby-plugin-google-analytics": "^2.3.0",
     "gatsby-transformer-sharp": "^2.4.4",
     "react-cookie-consent": "^3.0.0",

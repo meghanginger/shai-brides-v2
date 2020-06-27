@@ -21,6 +21,8 @@
 @import "../components/footer.scss";
 @import "../components/bio.scss";
 @import "../components/insta.scss";
+@import "../components/epk/genericMenu.scss";
+@import "../components/epk/honeydew.scss";
 
 @for $i from 1 through 6 {
     h#{7 - $i} {
@@ -206,4 +208,9 @@ p {
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap; /* added line */
+}
+
+.stdBg {
+  width: 100vw;
+  min-height: 100vh;
 }
