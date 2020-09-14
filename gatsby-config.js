@@ -4,7 +4,8 @@ module.exports = {
   siteMetadata: {
     title: `SHAI BRIDES`,
     description: `hectic pop.`,
-    author: `@shaibrides`
+    author: `@shaibrides`,
+    image: `/images/homeDesktop.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -40,6 +41,29 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-158100447-1",
+      },
+    },
+    {
+      resolve: 'gatsby-source-firestore',
+      options: {
+        credential: require("./firebase-key.json"),
+        databaseUrl: "https://shai-brides-v2.firebaseio.com",
+        types: [
+          {
+            type: 'Biography',
+            collection: 'bio',
+            map: doc => doc,
+          },
+          {
+            type: 'test',
+            collection: 'authors',
+            map: doc => ({
+              name: doc.name,
+              country: doc.country,
+              books___NODE: doc.books.map(book => book.id),
+            }),
+          },
+        ],
       },
     },
   ]

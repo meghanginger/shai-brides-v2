@@ -1,0 +1,74 @@
+.instaContainer {
+    //min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    //temp for honeydew bg
+
+    @media screen and (max-width: 783px) {
+        padding: 1rem 0;
+    }
+}
+
+.instaLink {
+    //background-color: #83001e;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    color: #00002c !important;
+    border: 0.3rem solid #00002c !important;
+    //color: white !important;
+    width: 30vw;
+    padding:1rem;
+    text-align: center;
+    font-family: Orbitron;
+    border: 0.3rem solid white;
+    margin: 0.3rem !important;
+    transition: all 0.3s;
+    font-size: 1rem;
+    // text-shadow: 2px 2px #111111;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 783px) {
+        width: 75vw;
+        margin: 1rem;
+    }
+}
+
+.instaLink:hover {
+    background-color: white;
+    border: 0.3rem solid #00002c;
+    color: #00002c !important;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-shadow: 1px 1px 2px #cccccc;
+}
+
+
+.instaLogo {
+    width: 30vw;
+    height: auto;
+    margin: 1rem;
+    filter: brightness(0) saturate(100%) invert(16%) sepia(12%) saturate(1373%) hue-rotate(171deg) brightness(93%) contrast(95%);
+
+    @media screen and (max-width: 783px) {
+        width: 60vw;
+    }
+}
+
+.instaSocials {
+    margin-bottom: 2rem;
+
+    & img {
+        height: 2.5rem !important;
+        width: auto;
+        transition: transform 0.1s;
+        filter: brightness(0) saturate(100%) invert(16%) sepia(12%) saturate(1373%) hue-rotate(171deg) brightness(93%) contrast(95%);
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
