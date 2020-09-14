@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "shai-brides-v2",
+  "private_key_id": "48a61cde38597f6cf742602fdaeab6cb8f07b355",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDBu4ENYsp0rXy7\nImznGgaILh/Fd25jJVk4B4QFz8x1+cmZbmM3vCG7QEaVnj2f67AgItpEKRaN0w8K\n8Av/qKTqKh49Yob78ihcrQaT1NyDT7Wxony1EBlWcnk/UQZG4jnqS3Z1F+EKIp0s\nMQaRtKBdnM3xxVwlOnkvDZrDTFKI4/KL3D5Amu0PXCz5bUg/wfmxw5dnZlCFOemB\nHqNtH7k7UlxLDoTThYI/LR/tACgKI69/whZcTJjcqJ3sl1vz9HwbTmwZsTT1V/VT\nw9K92JhQ1odcJrMqZ0SSeS6eqrd/e7N5C5jtvYOd6kBIYIqDCNE3M7ZqGmaaemt/\nczc2sKBdAgMBAAECggEAEq/Bi+2XT6SbeMVvGBkXjJnxii9+ubHhjP9hY0CFUGyo\nK6EZ962xQNZU687LbObj7ywApHBxWRUeYofmI5VvV5lGbDwm5WhllXYPDo7xBWCl\nfh1vkyg0kw6pouTWCsJJcDYx/KtkxoB+OCpmbGl6ymzHvjLmND6tCU/YbLWqhFxY\nVy6Dsa437ZPrMpcPVbRNQmaWLKwR33ucm+2QLX2ZJ45wpzw2/kbMA4TmXD2BQD1L\nUNcVkVPNhpVarkoYqw8EbTaxSG5W7RyZQbwuPTTAd+SdQKjbXauKoU54IYuPN0zl\nwMvOai+iluKn/BJWeZxxRPLVzFrgvKwpnfaF5mkk9QKBgQD3Sv8LZaZeG9bNiZaF\nZJnm1x8iSTV3EpG1R5voZgaXdPmR4hhjrNqWlbJ6xd7/LTXY66My35xG+y7I5ZxB\n6PVjow7XIlp2kMLZICmrILcq9vszFx5HXIGz7ztaSSjus8Vs+4ObTmHUpjh88Q7q\n+6HR1/P/q0AMK9KtUipEQDKwJwKBgQDIjbvh6M0ENRvOJvlGqxfBMvtCskN46YV+\neZYyipYB/He9BL5xySKmwU+smUO/r35FEO763JZyryaRJNH7gG1f4aqQXFSK2phF\nLfJ9ForB/Rknlwkd26EMKSd3G8dDYPsNzGGXNoyISaauHYQb/MqTyYJ88KMm0PqS\nkoXOUtL52wKBgCaAys0fepPUidFexszmKQBEJljURTrQ7VboW2IH4KbcU69fIKUE\nWNRxYmSzQlFA3M11gud84Xw7x8EH3xh0CSEGVl0wwB0N1QixdUtrwJkz81C1HMXH\npXo6mWcpVPI1k1uwnYEk5x6Q8uKhNc1oeH2PvjHknAhJGnhZ/rK5vCqpAoGAZNRF\nUoXNlUDyMsoLZ4kbT0nHYzfmjkKxl+2fItfkJSl+NazN5r0dy8LCwN7pXdToYebq\nj3sZtJz0geKGI7DkzGDTdPLGmmzeQ2GfWV5c8rzBydK4hadnJ4sFSW/Q1cJLVhuc\nMP7+1oJY5471XXDRlE2qahA9poVIhSpfVWT0pyMCgYEA7NanaBPU93kd7BWtSeRO\nwZsR3evMmBwJKdsiY84rcJpfqg1jgPwknqwhs3+BRKTL4njqpkNaULveJ+dtvd/9\nO0flPFM0xVZvLnf8xlIca+8bYWGUpDCGSQjXZ90nV4SEQaThVmOZK6ug733LFPwh\nmaA7XCBp22m2XS+s+MUefm0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-5h463@shai-brides-v2.iam.gserviceaccount.com",
+  "client_id": "116189185439930175871",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-5h463%40shai-brides-v2.iam.gserviceaccount.com"
+}

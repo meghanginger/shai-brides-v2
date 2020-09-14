@@ -16,6 +16,7 @@ export default
     },
     "Logos": {
             "white": "https://ik.imagekit.io/shaibrides/logos/white_K7zz8o5eK.png",
+            "black": "https://ik.imagekit.io/shaibrides/logo-black_09EqQQUaz.png"
     },
     "Icons": {
         "Spotify": "https://ik.imagekit.io/shaibrides/icons/spotify_TpyfSfU1JB.svg",
@@ -32,5 +33,8 @@ export default
     "Tokyo": {
         "Album": "https://ik.imagekit.io/shaibrides/Tokyo/TOKYO_DRIFT_COVER_FINAL_TWi-BcP4Snn.png",
         "Video": "https://ik.imagekit.io/shaibrides/video/Tokyo/TOKYO_WEB_B_COMPRESSED_OD8xu2qsE.mp4"
-},
+    },
+    "Honeydew": {
+        "Cover": "https://ik.imagekit.io/shaibrides/Honeydew/HONEYDEW_COVER_BACKGROUND_Tsus2W1cHJ.png"
+    }
 }

@@ -12,6 +12,7 @@
 @import "./logo.scss";
 @import "./border.scss";
 @import "./hero.scss";
+@import "./flex.scss";
 //@import "./margin_padding.scss";
 
 @import "../components/homeImage.scss";
@@ -23,6 +24,8 @@
 @import "../components/insta.scss";
 @import "../components/epk/genericMenu.scss";
 @import "../components/epk/honeydew.scss";
+@import "../components/enterWebsite.scss";
+
 
 @for $i from 1 through 6 {
     h#{7 - $i} {
