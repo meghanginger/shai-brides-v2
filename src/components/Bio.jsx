@@ -3,7 +3,21 @@ import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 import BioText from '../data/bio-text.json';
 
-const Bio = ({ data }) => (
+const Bio = ({ data }) => {
+  const test = useStaticQuery(
+    graphql`
+      query {
+        allBiographys {
+          edges {
+            node {
+            }
+          }
+        }
+      }
+    `,
+  );
+  console.log(test);
+  return (
   <>
     <Img
       fluid={data.beachDesktop.childImageSharp.fluid}
@@ -25,6 +39,7 @@ const Bio = ({ data }) => (
     </div>
   </>
 );
+}
 
 Bio.propTypes = {
   data: PropTypes.shape({
@@ -34,3 +49,4 @@ Bio.propTypes = {
 }
 
 export default Bio;
+
