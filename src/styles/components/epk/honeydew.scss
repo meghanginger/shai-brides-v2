@@ -1,0 +1,274 @@
+.honeydewLogo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8rem;
+    text-transform: lowercase;
+    text-shadow: none;
+    z-index: 100;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    font-weight: 500 !important;
+    align-self: center;
+    
+    @media screen and (max-width: 783px) {
+        font-size: 4rem;
+    }
+}
+
+.honeydewBandLogo {
+    width: 17rem;
+    height: auto;
+    z-index: 100;
+    filter: invert(16%) sepia(12%) saturate(1373%) hue-rotate(171deg) brightness(93%) contrast(95%);
+    align-self: flex-start;
+    transform: translateY(-30px);
+
+    @media screen and (max-width: 783px) {
+        align-self: center;
+    }
+}
+
+.honeydewText {
+    z-index: 100;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 1rem;
+
+    @media screen and (max-width: 783px) {
+        font-size: 1.5rem;
+    }
+}
+
+.honeydewDiv {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.honeydewSubdiv {
+    //min-height: 60vh;
+    min-height: auto;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+    border: 0.3rem solid #202C39 !important;
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    margin-bottom: 1rem;
+
+    @media screen and (max-width: 783px) {
+        background-color: rgba(255, 255, 255, 0.45) !important;
+    }
+}
+
+.honeydewLink {
+    background-color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    color: #202C39 !important;
+    width: 30vw;
+    padding: 1rem;
+    text-align: center;
+    font-family: Orbitron;
+    border: 0.3rem solid #202C39;
+    margin: 0.3rem !important;
+    margin-top: 1rem !important;
+    transition: all 0.3s;
+    font-size: 1.5rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem white;
+    text-decoration: none;
+    align-self: center;
+
+    @media screen and (max-width: 783px) {
+        width: 65vw;
+        margin: 1rem;
+        font-size: 1.2rem;
+    }
+}
+
+.honeydewLink:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-shadow: 1px 1px 2px #cccccc;
+}
+
+.honeydewPortrait {
+    width: 50vw;
+    height: auto;
+    border: 0.3rem solid #202C39;
+
+    @media screen and (max-width: 783px) {
+        width: 70vw;
+    }
+}
+
+.honeydewPageDiv {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.honeydewBody {
+    text-shadow: none;
+    padding: 0 !important;
+
+    @media screen and (max-width: 783px) {
+        padding: 0.5rem 0 !important;
+    }
+}
+
+.honeydewLabel {
+    color: white !important !important;
+    position: absolute;
+    width: 100vw;
+    top: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9 !important;
+
+    @media screen and (max-width: 783px) {
+        top: 65%;
+    }
+}
+
+.whiteOverride {
+    color: white !important !important;
+}
+
+.overrideMargin {
+    margin: 0 !important;
+}
+
+.overridePadding {
+    padding: 0 !important;
+}
+
+.honeydewDates {
+    text-align: left;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #202C39 !important;
+    padding-top: 2rem;
+}
+
+.honeydewSubtitle {
+    font-size: 1.3rem;
+    color: #202C39 !important;
+    font-weight: bold;
+}
+
+.honeydewArtwork {
+    width: 100%;
+    padding: 0.5rem 0;
+    align-self: center;
+
+}
+
+.recordingVid {
+ width: 30%;
+ height: auto; 
+ padding: 0.25rem 1%;
+
+ @media screen and (max-width: 783px) {
+    width: 100%;
+    height: auto;
+}
+}
+
+.recordingDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 1rem 0;
+
+    @media screen and (max-width: 783px) {
+        flex-direction: column;
+    }
+
+}
+
+.writingDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    @media screen and (max-width: 783px) {
+        flex-direction: column;
+    }
+}
+
+.writingChild {
+    width: 45%;
+    height: auto; 
+    padding: 1rem 1%;
+
+    @media screen and (max-width: 783px) {
+        width: 95%;
+        height: auto !important;
+    }
+}
+
+.honeydewStoryPortrait {
+    width: 30vw;
+    height: auto;
+    border: 0.3rem solid #202C39;
+    align-self: center;
+
+    @media screen and (max-width: 783px) {
+        width: 55vw;
+    }
+}
+
+.honeydewSubtitleStory {
+    text-shadow: none;
+    align-self: center;
+    padding: 2rem 0 0 0 !important;
+    font-size: 1.5rem;
+}
+
+.star {
+    width: 5%;
+    height: auto;
+    align-self: center;
+
+    @media screen and (max-width: 783px) {
+        width: 10%;
+    }
+}
+
+.honeydewLogo2 {
+    width: 60%;
+    height: auto;
+    align-self: center;
+    filter: invert(13%) sepia(4%) saturate(5163%) hue-rotate(172deg) brightness(94%) contrast(90%);
+    margin-top: -1.5rem;
+    margin-bottom: 1.5rem;
+    @media screen and (max-width: 783px) {
+        width: 80%;
+    }
+}
+
+.alignCenter {
+    align-self: center;
+}

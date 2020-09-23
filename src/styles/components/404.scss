@@ -11,11 +11,12 @@
     flex-direction: column;
     justify-content: center;
     min-height: 70vh;
+    align-items: center;
 }
 
 .errorBody {
    text-align: center;
-   margin-top: 1rem;
+   margin: 1rem 0.5rem;
 }
 
 .homeLink {
@@ -26,4 +27,14 @@
 
 .errorFooter {
     justify-self: flex-end;
+}
+
+.errorGif {
+    width: 40vw;
+    height: auto;
+    padding: 1rem;
+
+    @media screen and (max-width: 783px) {
+        width: 80vw;
+    }
 }

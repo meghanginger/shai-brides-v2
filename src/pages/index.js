@@ -1,33 +1,10 @@
 import React from "react"
-import Layout from "../components/Layout"
-import SEO from "../components/SEO"
-import Joie from "../components/Joie"
-import Tokyo from "../components/Tokyo"
-import Bio from "../components/Bio";
-import Footer from "../components/Footer";
-import ScrollAnchor from "../components/ScrollAnchor";
-import Landing from "../components/Landing";
-import Live from "../components/Live";
+import EnterWebsite from "../components/tempPages/enterWebsite";
 // import { configureAnchors } from 'react-scrollable-anchor';
 //configureAnchors({scrollDuration: 600})
 
 const IndexPage = ({ data }) => (
-  <Layout>
-    <SEO title="SHAI BRIDES" />
-    <h1 className="visuallyHidden">
-      Shai Brides
-    </h1>
-    <Landing data={data} />
-    <ScrollAnchor linkId="live" />
-    <Live />
-    <ScrollAnchor linkId="tokyo" />
-    <Tokyo />
-    <ScrollAnchor linkId="joie" />
-    <Joie />
-    <ScrollAnchor linkId="about-the-band" />
-    <Bio data={data}/>
-    <Footer bgColour="new-blue"/>
-  </Layout>
+  <EnterWebsite data={data} /> 
 )
 
 export const query = graphql`
@@ -60,7 +37,14 @@ export const query = graphql`
           }
         }
       }
+    honeydewBg: file(relativePath: { eq: "honeydewBg.png" }) {
+      childImageSharp {
+          fluid(maxWidth: 800) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
   }
  `
-
+ 
 export default IndexPage;

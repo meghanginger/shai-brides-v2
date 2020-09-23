@@ -1,36 +1,34 @@
 [
     {
-        "day": "22",
-        "month": "AUG",
-        "venue": "Castle & Falcon",
+        "day": "23",
+        "month": "JAN",
+        "venue": "Dead Wax Digbeth",
         "city": "Birmingham",
-        "desc": "Sonic Gun Weekender",
-        "ticketLink": "https://www.seetickets.com/tour/sonic-gun-weekender"
-
-    },
-    {
-        "day": "19",
-        "month": "SEP",
-        "venue": "Victoria Dalston",
-        "city": "London",
-        "desc": "With Ten Hands High",
-        "ticketLink": "https://www.fatsoma.com/scruffoftheneck/re9wk4td/ten-hands-high-london-the-victoria"
-
+        "desc": "HEADLINE SHOW",
+        "ticketLink": "https://www.seetickets.com/event/shai-brides/dead-wax/1613769"
     },
     {
         "day": "24",
-        "month": "SEP",
-        "venue": "Hare & Hounds",
-        "city": "Birmingham",
-        "desc": "With Nimmo",
-        "ticketLink": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds/Nimmo-Postponed-to-Sept-24th/13691627/"
+        "month": "JAN",
+        "venue": "Hope & Ruin",
+        "city": "Brighton",
+        "desc": "HEADLINE SHOW",
+        "ticketLink": "https://www.fatsoma.com/events/ci2vdm41"
     },
     {
-        "day": "09",
-        "month": "DEC",
-        "venue": "The Castle & Falcon",
-        "city": "Birmingham",
-        "desc": "With Larkins",
-        "ticketLink": "https://www.seetickets.com/event/larkins/the-castle-and-falcon/1471113"
+        "day": "28",
+        "month": "JAN",
+        "venue": "Oporto",
+        "city": "Leeds",
+        "desc": "HEADLINE SHOW",
+        "ticketLink": "https://www.lunatickets.co.uk/event/shai-brides/oporto/1614286"
+    },
+    {
+        "day": "30",
+        "month": "JAN",
+        "venue": "Waiting Room",
+        "city": "London",
+        "desc": "HEADLINE SHOW",
+        "ticketLink": "https://www.fatsoma.com/events/e1hy84ph"
     }
 ]

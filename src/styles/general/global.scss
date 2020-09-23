@@ -12,6 +12,7 @@
 @import "./logo.scss";
 @import "./border.scss";
 @import "./hero.scss";
+@import "./flex.scss";
 //@import "./margin_padding.scss";
 
 @import "../components/homeImage.scss";
@@ -20,6 +21,11 @@
 @import "../components/joie.scss";
 @import "../components/footer.scss";
 @import "../components/bio.scss";
+@import "../components/insta.scss";
+@import "../components/epk/genericMenu.scss";
+@import "../components/epk/honeydew.scss";
+@import "../components/enterWebsite.scss";
+
 
 @for $i from 1 through 6 {
     h#{7 - $i} {
@@ -30,6 +36,23 @@
 body {
     margin: 0;
     overflow-x: hidden;
+}
+
+h1 { 
+  display: block;
+  text-shadow: 2px 2px #111111;
+  font-size: 4rem;
+  margin: 0;
+  padding: 1rem;
+  padding-top: 1.5rem;
+  font-family: Orbitron;
+  font-weight: regular;
+  text-transform: uppercase;
+  @media screen  and (max-width:783px){
+    font-size: 2rem;
+    padding-bottom: 0;
+  }
+  text-align: center !important;
 }
 
 h2 { 
@@ -188,4 +211,9 @@ p {
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap; /* added line */
+}
+
+.stdBg {
+  width: 100vw;
+  min-height: 100vh;
 }

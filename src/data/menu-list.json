@@ -1,14 +1,15 @@
 [
     {
-        "label": "LIVE",
-        "link": "#live"
-    },{
-        "label": "TOKYO DRIFT",
-        "link": "#tokyo"
+        "label": "THE STORY OF HONEYDEW",
+        "link": "/honeydewStory"
     },
     {
-        "label": "JOIE DE VIVRE",
-        "link": "#joie"
+        "label": "LIVE",
+        "link": "#live"
+    },
+    {
+        "label": "PREVIOUS SINGLES",
+        "link": "#tokyo"
     },
     {
         "label": "ABOUT THE BAND",
