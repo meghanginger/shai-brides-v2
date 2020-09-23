@@ -59,6 +59,7 @@
   },
   "dependencies": {
     "dash-core-components": "^1.10.0",
+    "dotenv": "^8.2.0",
     "gatsby": "^2.19.41",
     "gatsby-image": "^2.2.24",
     "gatsby-plugin-google-analytics": "^2.3.0",
