@@ -12,6 +12,7 @@ import CookieConsent from 'react-cookie-consent';
 import Menu from '../data/menu-list.json';
 
 const Layout = ({ children }) => {
+  /*
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -21,6 +22,7 @@ const Layout = ({ children }) => {
       }
     }
   `);
+  */
   const [showMenu, setShowMenu] = useState(false);
   return (
     <>

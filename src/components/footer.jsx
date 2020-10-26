@@ -28,7 +28,7 @@ const Footer = ({ bgColour, honeydew }) => (
       </div>
     </div>
     <span className="smallPrint">
-      © Shai Brides 2020. All photos taken by the wonderful <a href="https://sld.codes">Sam Larsen Disney</a>.
+      © Shai Brides 2020. All photos taken by Tom Baines and <a href="https://sld.codes">Sam Larsen Disney</a>.
     </span>
   </div>
 

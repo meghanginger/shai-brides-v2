@@ -15,15 +15,16 @@ const enterWebsite = ({ data }) => (
       <div className="honeydewDiv" >
         <img src={imageURLs.Logos.black} className="honeydewBandLogo" alt="Shai Brides Logo" />
         <div className="honeydewSubdiv">
-          <h1 className="honeydewLogo honeydew-dark-blue">honey<i>dew</i></h1>
-          <div className="honeydewText honeydew-dark-blue alignCenter">Out now on all major streaming platforms</div>
-          <a className="honeydewLink" href="/honeydewStory">
-            Find out more
+          <img src={imageURLs.Vits.logo} className="vitsLogoEnterWebsite" />
+          <div className="vitsText honeydew-dark-blue alignCenter">OUT FRIDAY 6TH NOVEMBER ON ALL STREAMING PLATFORMS</div>
+          <a className="vitsLink" href="https://snd.click/uqxz">
+            PRESAVE NOW
           </a>
-          <a className="honeydewLink" href="/home">
+          <a className="vitsLink" href="/home">
             Enter website
           </a>
         </div>
+        <img src="https://ik.imagekit.io/shaibrides/vits-line_ILA3O9bcf.svg" className="vitsSquareIcons" />
       </div>
     </div>
   </>
