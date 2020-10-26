@@ -7,14 +7,14 @@ const home = ({ data }) => (
 
 export const query = graphql`
   query {
-    homeDesktop: file(relativePath: { eq: "homeDesktop.jpg" }) {
+    homeDesktop: file(relativePath: { eq: "vits/vitsDesktop.jpeg" }) {
     childImageSharp {
         fluid(maxWidth: 1240) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    homeMobile: file(relativePath: { eq: "homeMobile.jpg" }) {
+    homeMobile: file(relativePath: { eq: "vits/vitsMobile.jpeg" }) {
       childImageSharp {
           fluid(maxWidth: 800) {
             ...GatsbyImageSharpFluid

@@ -11,8 +11,8 @@ const Landing = ({ data }) => (
     <div className="indexContainer">
       <Img
         fluid={isMobile
-          ? data.honeydewMobile.childImageSharp.fluid
-          : data.honeydewDesktop.childImageSharp.fluid}
+          ? data.homeMobile.childImageSharp.fluid
+          : data.homeDesktop.childImageSharp.fluid}
         alt="Shai brides in forest"
         className="homeImageMobile"
       />
@@ -26,10 +26,10 @@ const Landing = ({ data }) => (
       </a>
     </div>
     <div className="honeydewLabel">
-        <h1 className="honeydewLogo honeydew-pink shadow">honey<i>dew</i></h1>
-        <div className="honeydewText honeydew-pink shadow overridePadding">OUT NOW on all major streaming platforms</div>
-        <a className="honeydewLink overrideMargin" href="/honeydewStory">
-          FIND OUT MORE
+        <img src={imageURLs.Vits.logo} className="vitsLogoHome" />
+        <div className="vitsText vitsHomeText shadow overridePadding">OUT 6TH NOVEMBER on all major streaming platforms</div>
+        <a className="vitsLink overrideMargin" href="https://snd.click/uqxz">
+          PRESAVE NOW
         </a>
     </div>
     
