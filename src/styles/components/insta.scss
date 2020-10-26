@@ -16,13 +16,16 @@
     //background-color: #83001e;
     background-color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
+    text-shadow: 1px 1px 2px #ffffff;
     color: #00002c !important;
     border: 0.3rem solid #00002c !important;
+    border-radius: 1rem;
     //color: white !important;
     width: 30vw;
     padding:1rem;
     text-align: center;
-    font-family: Orbitron;
+    font-family: "Libre Franklin";
+    font-weight: 800;
     border: 0.3rem solid white;
     margin: 0.3rem !important;
     transition: all 0.3s;

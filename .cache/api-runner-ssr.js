@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/Meghan/Documents/BRIDES/web dev/shai-brides-v2/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"icon":"src/img/favicon.png"},
+      options: {"plugins":[],"icon":"src/img/favicon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"413c9b0bc824c77079195be4c81a6b1b"},
     },{
       plugin: require('/Users/Meghan/Documents/BRIDES/web dev/shai-brides-v2/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-158100447-1"},

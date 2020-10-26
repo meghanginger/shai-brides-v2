@@ -10,7 +10,7 @@
     align-self: center;
     
     @media screen and (max-width: 783px) {
-        font-size: 4rem;
+        width: 80%;
     }
 }
 
@@ -60,15 +60,15 @@
     width: 80vw;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     padding: 1rem;
-    border: 0.3rem solid #202C39 !important;
-    background-color: rgba(255, 255, 255, 0.3) !important;
+    //border: 0.3rem solid #202C39 !important;
+    //background-color: rgba(255, 255, 255, 0.3) !important;
     margin-bottom: 1rem;
 
     @media screen and (max-width: 783px) {
-        background-color: rgba(255, 255, 255, 0.45) !important;
+        //background-color: rgba(255, 255, 255, 0.45) !important;
     }
 }
 

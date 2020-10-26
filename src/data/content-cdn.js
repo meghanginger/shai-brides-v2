@@ -36,5 +36,8 @@ export default
     },
     "Honeydew": {
         "Cover": "https://ik.imagekit.io/shaibrides/Honeydew/HONEYDEW_COVER_BACKGROUND_Tsus2W1cHJ.png"
+    },
+    "Vits": {
+        "logo": "https://ik.imagekit.io/shaibrides/vits-smaller_KjvtRuwelSv.svg"
     }
 }
